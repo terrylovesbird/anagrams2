@@ -1,5 +1,5 @@
 var ana = require("./anagram2"),
-  dictionary = ["threads", "trashed", "hardest", "hatreds", "hounds"];
+dictionary = ["threads", "trashed", "hardest", "hatreds", "hounds"];
 
 console.log(ana.anagramsFor("threads", dictionary).length == 4);
 console.log(ana.anagramsFor("threads", dictionary)[0] == "threads");
