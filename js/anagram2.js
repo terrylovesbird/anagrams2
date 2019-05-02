@@ -1,3 +1,3 @@
-exports.anagramsFor = function(word, dictionary) {
+exports.anagramsFor = function(word, listOfWords) {
 
 };
