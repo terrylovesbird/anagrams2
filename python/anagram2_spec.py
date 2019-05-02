@@ -1,6 +1,6 @@
 from anagram2 import anagrams_for 
 
-dictionary = ["threads", "trashed", "hardest", "hatreds", "hounds"]
+list_of_words = ["threads", "trashed", "hardest", "hatreds", "hounds"]
 
-print(anagrams_for("threads", dictionary) == ["threads", "trashed", "hardest", "hatreds"])
-print(anagrams_for("apple", dictionary) == [])
+print(anagrams_for("threads", list_of_words) == ["threads", "trashed", "hardest", "hatreds"])
+print(anagrams_for("apple", list_of_words) == [])
