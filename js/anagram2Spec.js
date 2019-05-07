@@ -1,3 +1,5 @@
+// Can you translate this driver code to unit tests?
+
 var ana = require("./anagram2"),
 listOfWords = ["threads", "trashed", "hardest", "hatreds", "hounds"];
 
